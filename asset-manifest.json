@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/plan-with-akhil/static/css/main.bf34fca0.css",
+    "main.js": "/plan-with-akhil/static/js/main.2078ed76.js",
+    "index.html": "/plan-with-akhil/index.html",
+    "main.bf34fca0.css.map": "/plan-with-akhil/static/css/main.bf34fca0.css.map",
+    "main.2078ed76.js.map": "/plan-with-akhil/static/js/main.2078ed76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf34fca0.css",
+    "static/js/main.2078ed76.js"
+  ]
+}
