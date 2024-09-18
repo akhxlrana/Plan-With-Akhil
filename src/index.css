@@ -1,0 +1,133 @@
+/* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.image{
+    width: 380px;
+    height:380px;
+    object-fit: cover;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.heading{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed rgb(56, 56, 82);
+    padding: 1vh 5vw;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.tour-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    line-height: 1.5rem;
+}
+.tour-price{
+    color: rgb(18, 185, 18);
+    font:800;
+    font-size: x-large;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.tour-name{
+    font:800;
+    font-size: x-large;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font: 700;
+    font-size: 16px;
+}
+.read-more{
+    color: rgb(53, 53, 245);
+    cursor: pointer;
+}
+
+.btn-red{
+    all: unset;
+    font-size: large;
+    margin: 1rem;
+    background-color: rgb(255, 192, 192);
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-bottom: 3px rgb(240, 45, 45) solid;
+    transition: all 150ms;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.btn-red:hover{
+    background-color: rgb(240, 17, 17);
+    color: white;
+
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn-white{
+    all: unset;
+    margin: 1rem;
+    /* font-size: large; */
+    width: 150px;
+    background-color: rgb(228, 229, 230);
+    text-align: center;
+    padding: 0.5rem;
+    transition: all 150ms;
+
+    /* border-radius: 10px; */
+    
+}
+
+.btn-white:hover{
+    background-color: rgb(215, 252, 220);
+}
